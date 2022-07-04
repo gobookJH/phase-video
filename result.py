@@ -12,7 +12,7 @@ if __name__ ==  '__main__':
     It takes around 10 minutes to complete on an average computer.
     '''
     input_path = 'input/crane_crop.avi'
-    output_path = 'output/crane_crop_magnified.mpeg'
+    output_path = 'output/crane_crop_magnified.avi'
     
     alpha = 75
     D,N,K = 3,2,8

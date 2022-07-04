@@ -34,7 +34,7 @@ def numpy2video(path, frames, fs=30.0):
     '''
     Inverse operation of video2numpy.
     '''
-    codec = cv2.VideoWriter_fourcc(*'MPG1')
+    codec = cv2.VideoWriter_fourcc(*'XVID')
     writer = cv2.VideoWriter(path, codec, fs, frames.shape[1:3])
 
     T = len(frames)
